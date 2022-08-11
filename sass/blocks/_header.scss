@@ -1,0 +1,22 @@
+.header {
+    margin-bottom: 30px;
+
+    &__title {
+        font-size: 32px;
+        color: #ec8f36;
+
+        @media screen and (max-width: 560px) {
+            font-size: 26px;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 22px;
+        }
+    }
+
+    &__date {
+        font-size: 17px;
+        font-weight: 500;
+        color: #ada6a1;
+    }
+}

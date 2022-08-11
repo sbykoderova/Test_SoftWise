@@ -1,0 +1,46 @@
+// General Styles
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f1f1f1;
+
+    @media screen and (max-width: 480px) {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 1220px;
+    margin: 50px auto;
+    padding: 0 10px;
+}
+
+.wrapper {
+    background-color: #fff;
+    padding: 25px;
+
+    @media screen and (max-width: 560px) {
+        padding: 20px;
+    }
+}
+
+button {
+    font-family: inherit;
+}
+
+// Blocks
+@import 'blocks/header';
+@import 'blocks/description';
+@import 'blocks/advantages';
+@import 'blocks/steps';
+@import 'blocks/app';
+@import 'blocks/stopwatch';

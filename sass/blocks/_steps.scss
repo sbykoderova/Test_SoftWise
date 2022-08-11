@@ -1,0 +1,29 @@
+.steps {
+    margin-bottom: 30px;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &--one {
+            &::before {
+                content: '1.';
+                font-weight: 700;
+            }
+        }
+
+        &--two {
+            &::before {
+                content: '2.';
+                font-weight: 700;
+            }
+        }
+    }
+}
