@@ -1,2 +1,2 @@
 # Тестовое задание для SoftWise
-https://sbykoderova.github.io/Test_SoftWise/
+Demo: https://sbykoderova.github.io/Test_SoftWise/
